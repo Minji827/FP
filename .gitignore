@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+
+# 비밀값
+.env
+
+# 공공데이터 원본 (MANIFEST.csv만 커밋)
+data/raw/*
+!data/raw/MANIFEST.csv
+
+# Office 임시 파일
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
